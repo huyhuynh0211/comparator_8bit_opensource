@@ -1,0 +1,25 @@
+** sch_path: /home/huyhuynh/Documents/nam3ky1/VLSIdesign/project/E2/xschem/comparator_8bit.sch
+.subckt comparator_8bit VDD EQ A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] LT GND B[7] B[6] B[5] B[4] B[3] B[2] B[1] B[0] GT
+*.PININFO EQ:O LT:O GT:O VDD:B GND:B A[7:0]:I B[7:0]:I
+x2 A[1] net1 E1 GND GND VDD VDD net2 sky130_fd_sc_hd__mux2i_1
+x3 B[2] net2 E2 GND GND VDD VDD net3 sky130_fd_sc_hd__mux2i_1
+x4 A[3] net3 E3 GND GND VDD VDD net7 sky130_fd_sc_hd__mux2i_1
+x6 A[5] net4 E5 GND GND VDD VDD net5 sky130_fd_sc_hd__mux2i_1
+x7 B[6] net5 E6 GND GND VDD VDD net6 sky130_fd_sc_hd__mux2i_1
+x8 B[7] net6 E7 GND GND VDD VDD net8 sky130_fd_sc_hd__mux2i_1
+x9 E0 E1 E2 E3 GND GND VDD VDD NLO sky130_fd_sc_hd__nand4_1
+x11 A[0] B[0] GND GND VDD VDD E0 sky130_fd_sc_hd__xnor2_1
+x10 E4 E5 E6 E7 GND GND VDD VDD NHI sky130_fd_sc_hd__nand4_1
+x19 NLO NHI GND GND VDD VDD EQ sky130_fd_sc_hd__nor2_1
+x20 net7 net8 NHI GND GND VDD VDD GT sky130_fd_sc_hd__mux2i_1
+x21 EQ GT GND GND VDD VDD LT sky130_fd_sc_hd__nor2_1
+x12 A[1] B[1] GND GND VDD VDD E1 sky130_fd_sc_hd__xnor2_1
+x13 A[2] B[2] GND GND VDD VDD E2 sky130_fd_sc_hd__xnor2_1
+x14 A[3] B[3] GND GND VDD VDD E3 sky130_fd_sc_hd__xnor2_1
+x15 A[4] B[4] GND GND VDD VDD E4 sky130_fd_sc_hd__xnor2_1
+x16 A[5] B[5] GND GND VDD VDD E5 sky130_fd_sc_hd__xnor2_1
+x17 A[6] B[6] GND GND VDD VDD E6 sky130_fd_sc_hd__xnor2_1
+x18 A[7] B[7] GND GND VDD VDD E7 sky130_fd_sc_hd__xnor2_1
+x22 B[0] A[0] GND GND VDD VDD net1 sky130_fd_sc_hd__nor2b_1
+x1 B[4] A[4] GND GND VDD VDD net4 sky130_fd_sc_hd__nor2b_1
+.ends

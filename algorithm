@@ -1,0 +1,14 @@
+Nibble thấp:  G0  = nor2b(A=B0, B_N=A0)           // = A0 & ~B0
+              nG1 = mux2i(S=E1, A1=G0,  A0=A1)
+              G2  = mux2i(S=E2, A1=nG1, A0=B2)
+              nG3 = mux2i(S=E3, A1=G2,  A0=A3)
+
+Nibble cao:   H4  = nor2b(A=B4, B_N=A4)           // = A4 & ~B4
+              nH5 = mux2i(S=E5, A1=H4,  A0=A5)
+              H6  = mux2i(S=E6, A1=nH5, A0=B6)
+              nH7 = mux2i(S=E7, A1=H6,  A0=B7)    // bit dấu: không dấu sẽ là A7
+
+NLO = nand4(E0,E1,E2,E3)       NHI = nand4(E4,E5,E6,E7)
+GT  = mux2i(S=NHI, A1=nH7, A0=nG3)                // = NHI ? H7 : G3
+EQ  = nor2(NLO, NHI)
+LT  = nor2(GT, EQ)

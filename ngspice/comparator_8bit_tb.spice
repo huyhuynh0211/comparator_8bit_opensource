@@ -1,0 +1,69 @@
+* ---- Include PDK libs ----------------------------------------
+.lib $PDK_ROOT/$PDK/libs.tech/combined/sky130.lib.spice tt
+
+* uncomment this line if DUT is a xschem netlist
+*.include $PDK_ROOT/$PDK/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+* ---- Include DUT ----------------------------------------
+.include $PWD/../magic/comparator_8bit.rcx.spice
+
+* ---- Global supply ------------------------------------------
+.global VDD GND
+Vvdd VDD 0 DC 1.8
+
+* ---- Stimulus sources ----------------------------------------
+* A[7:0] = 00?0_0000 (only A[5] toggles)
+Va0 A0 0 DC 0
+Va1 A1 0 DC 0
+Va2 A2 0 DC 0
+Va3 A3 0 DC 0
+Va4 A4 0 DC 0
+Va6 A6 0 DC 0
+Va7 A7 0 DC 0
+
+* B[7:0] = 0000_0001 (static)
+Vb0 B0 0 DC 1.8
+Vb1 B1 0 DC 0
+Vb2 B2 0 DC 0
+Vb3 B3 0 DC 0
+Vb4 B4 0 DC 0
+Vb5 B5 0 DC 0
+Vb6 B6 0 DC 0
+Vb7 B7 0 DC 0
+
+* A[5]: step low -> high at t=2ns (rise), then high -> low at t=12ns (fall)
+* Use piecewise-linear to get clean 50ps edges
+Va5 A5 0 PWL(
++ 0ns     0
++ 2ns     0
++ 2.05ns  1.8
++ 12ns    1.8
++ 12.05ns 0
++ 20ns    0
++ )
+
+* ---- DUT: comparator_8bit (post-layout, R+C parasitics) ------
+* Pin order MUST follow the .subckt line in ../magic/comparator_8bit.rcx.spice:
+*   A[0..7] B[0..5] B[7] EQ GT LT VDD GND B[6]
+Xdut A0 A1 A2 A3 A4 A5 A6 A7 B0 B1 B2 B3 B4 B5 B7 EQ GT LT VDD gnd B6 comparator_8bit
+
+* ---- Load capacitance (same as STA: set_load 0.01 pF) --------
+Cload_lt LT 0 0.01pF
+Cload_eq EQ 0 0.01pF
+Cload_gt GT 0 0.01pF
+
+* ---- Batch mode ---------------------------------------------
+* run ngspice with -b flag, -r flag writes the raw waveform file
+.tran 1ps 20ns
+.save v(A5) v(LT) v(EQ) v(GT)
+
+* A[5] rises (A: 0x00 -> 0x20): GT 0->1, LT 1->0
+.meas tran tpd_gt_rise TRIG v(A5) VAL=0.9 RISE=1 TARG v(GT) VAL=0.9 RISE=1
+.meas tran tpd_lt_fall TRIG v(A5) VAL=0.9 RISE=1 TARG v(LT) VAL=0.9 FALL=1
+* A[5] falls (A: 0x20 -> 0x00): GT 1->0, LT 0->1
+.meas tran tpd_gt_fall TRIG v(A5) VAL=0.9 FALL=1 TARG v(GT) VAL=0.9 FALL=1
+.meas tran tpd_lt_rise TRIG v(A5) VAL=0.9 FALL=1 TARG v(LT) VAL=0.9 RISE=1
+* EQ must stay low for the whole run
+.meas tran eq_max MAX v(EQ) FROM=0 TO=20ns
+
+.end

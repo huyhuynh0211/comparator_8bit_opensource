@@ -1,0 +1,6 @@
+*.raw
+*.vcd
+*.ext
+*.bak
+*.bak2
+extfiles/

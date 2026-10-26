@@ -1,0 +1,383 @@
+
+Note: Compatibility modes selected: hs a
+
+
+Circuit: * ---- include pdk libs ----------------------------------------
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        1.8
+a0                                           0
+a1                                           0
+a2                                           0
+a3                                           0
+a4                                           0
+a6                                           0
+a7                                           0
+b0                                         1.8
+b1                                           0
+b2                                           0
+b3                                           0
+b4                                           0
+b5                                           0
+b6                                           0
+b7                                           0
+a5                                           0
+xdut.x3.s                                  1.8
+xdut.vdd.t41                               1.8
+xdut.vdd.t36                               1.8
+xdut.gnd.t34                       3.58116e-07
+xdut.x10.d                                 1.8
+xdut.vdd.t25                               1.8
+xdut.vdd.t24                               1.8
+xdut.gnd.t93                       6.63515e-10
+xdut.gnd.t92                       3.98695e-07
+xdut.vdd.t69                               1.8
+xdut.vdd.t68                               1.8
+xdut.x7.y                          2.26639e-08
+xdut.x6.y                                  1.8
+xdut.gnd.t7                        2.93891e-07
+xdut.x2.s                                  1.8
+xdut.vdd.t77                               1.8
+xdut.vdd.t39                               1.8
+xdut.x22.y                         2.41366e-09
+xdut.gnd.t74                       8.55308e-11
+xdut.gnd.t32                       4.93733e-08
+xdut.x10.b                                 1.8
+xdut.gnd.t23                       6.61233e-10
+xdut.gnd.t6                        3.40429e-07
+xdut.x9.y                                  1.8
+xdut.x11.y                         1.87422e-08
+xdut.vdd.t2                                1.8
+xdut.vdd.t1                                1.8
+xdut.gnd.t33                       6.93709e-11
+xdut.x4.s                                  1.8
+xdut.vdd.t37                               1.8
+xdut.x10.a                                 1.8
+xdut.x19.b                         7.53509e-08
+xdut.gnd.t43                       3.21812e-07
+xdut.vdd.t22                               1.8
+xdut.vdd.t21                               1.8
+xdut.gnd.t14                       1.83633e-07
+xdut.gnd.t60                       6.60829e-10
+xdut.gnd.t59                       9.30874e-08
+xdut.vdd.t76                               1.8
+xdut.vdd.t42                               1.8
+xdut.gnd.t98                       6.84343e-11
+xdut.x1.y                          5.35555e-09
+xdut.vdd.t45                               1.8
+xdut.gnd.t86                        7.4329e-10
+xdut.gnd.t87                       3.73258e-07
+xdut.gnd.t46                        1.4266e-07
+xdut.vdd.t6                                1.8
+xdut.vdd.t5                                1.8
+xdut.gnd.t9                        7.10684e-10
+xdut.x10.c                                 1.8
+xdut.gnd.t12                       2.49361e-07
+xdut.gnd.t70                       6.67525e-10
+xdut.gnd.t80                       2.42253e-07
+xdut.gnd.t40                       3.05585e-07
+xdut.vdd.t18                               1.8
+xdut.gnd.t77                       6.65093e-10
+xdut.gnd.t76                       3.96513e-07
+xdut.vdd.t54                               1.8
+xdut.vdd.t61                               1.8
+xdut.gnd.t5                        6.80416e-10
+xdut.gnd.t17                       3.68072e-07
+xdut.gnd.t25                       3.31282e-07
+xdut.gnd.t63                       7.30429e-08
+xdut.vdd.t108                              1.8
+xdut.vdd.t107                              1.8
+xdut.vdd.t88                               1.8
+xdut.vdd.t84                               1.8
+xdut.x4.y                                  1.8
+xdut.x4.a1                         2.27401e-08
+gt                                 1.94304e-08
+lt                                         1.8
+xdut.vdd.t99                               1.8
+xdut.vdd.t103                              1.8
+xdut.vdd.t98                               1.8
+xdut.vdd.t97                               1.8
+xdut.gnd.t101                      1.09012e-10
+xdut.vdd.t15                               1.8
+xdut.vdd.t14                               1.8
+xdut.gnd.t0                        2.35869e-07
+xdut.gnd.t85                       3.70511e-07
+xdut.vdd.t51                               1.8
+xdut.vdd.t50                               1.8
+xdut.vdd.t44                               1.8
+xdut.vdd.t63                               1.8
+xdut.x20.a1                                1.8
+xdut.vdd.t47                               1.8
+xdut.vdd.t46                               1.8
+xdut.vdd.t8                                1.8
+xdut.vdd.t60                               1.8
+xdut.vdd.t75                               1.8
+xdut.x2.y                                  1.8
+xdut.vdd.t10                               1.8
+xdut.vdd.t13                               1.8
+xdut.vdd.t106                              1.8
+xdut.vdd.t105                              1.8
+xdut.vdd.t114                              1.8
+xdut.vdd.t109                              1.8
+xdut.gnd.t103                       3.3878e-07
+xdut.gnd.t1                        1.25242e-07
+xdut.vdd.t113                              1.8
+eq                                 7.07483e-09
+xdut.vdd.t112                              1.8
+xdut.vdd.t43                               1.8
+xdut.gnd.t19                       8.18388e-10
+xdut.gnd.t18                       3.47856e-07
+xdut.gnd.t45                        7.5763e-10
+xdut.gnd.t44                       1.96555e-07
+xdut.vdd.t96                               1.8
+xdut.gnd.t91                       2.60585e-07
+xdut.gnd.t21                        3.9671e-07
+xdut.gnd.t24                        3.5927e-07
+xdut.vdd.t81                               1.8
+xdut.vdd.t82                               1.8
+xdut.vdd.t52                               1.8
+xdut.vdd.t87                               1.8
+xdut.vdd.t86                               1.8
+xdut.gnd.t28                       7.53189e-10
+xdut.gnd.t27                       1.82673e-07
+xdut.vdd.t40                               1.8
+xdut.gnd.t61                       1.16437e-07
+xdut.vdd.t7                                1.8
+xdut.vdd.t4                                1.8
+xdut.vdd.t3                                1.8
+xdut.vdd.t74                               1.8
+xdut.vdd.t73                               1.8
+xdut.vdd.t59                               1.8
+xdut.gnd.t71                        6.8962e-11
+xdut.gnd.t3                        7.98743e-10
+xdut.gnd.t50                       2.81075e-07
+xdut.gnd.t52                       1.56643e-07
+xdut.gnd.t31                       7.29957e-10
+xdut.gnd.t62                       2.22007e-07
+xdut.gnd.t38                       2.49731e-07
+xdut.gnd.t78                       3.98502e-07
+xdut.vdd.t80                               1.8
+xdut.vdd.t58                               1.8
+xdut.vdd.t57                               1.8
+xdut.vdd.t35                               1.8
+xdut.vdd.t34                               1.8
+xdut.gnd.t89                       6.84714e-10
+xdut.gnd.t90                       1.03794e-07
+xdut.gnd.t84                       7.81828e-10
+xdut.gnd.t83                       6.51601e-08
+xdut.vdd.t38                               1.8
+xdut.gnd.t13                       3.39569e-07
+xdut.vdd.t20                               1.8
+xdut.vdd.t19                               1.8
+xdut.vdd.t12                               1.8
+xdut.vdd.t11                               1.8
+xdut.gnd.t20                       2.47998e-07
+xdut.vdd.t101                              1.8
+xdut.gnd.t88                       8.61197e-08
+xdut.vdd.t9                                1.8
+xdut.gnd.t4                        3.59671e-07
+xdut.gnd.t16                       6.82843e-10
+xdut.gnd.t81                       3.85006e-07
+xdut.gnd.t72                       7.34413e-11
+xdut.gnd.t94                       3.97281e-07
+xdut.gnd.t66                       3.06109e-07
+xdut.gnd.t82                       3.99297e-07
+xdut.vdd.t110                              1.8
+xdut.vdd.t64                               1.8
+xdut.vdd.t56                               1.8
+xdut.gnd.t35                       3.30493e-07
+xdut.vdd.t67                               1.8
+xdut.vdd.t66                               1.8
+xdut.gnd.t47                       9.01584e-11
+xdut.gnd.t53                       2.81986e-07
+xdut.vdd.t117                              1.8
+xdut.vdd.t116                              1.8
+xdut.gnd.t57                       6.64354e-10
+xdut.gnd.t56                       3.98591e-07
+xdut.gnd.t42                       6.96303e-10
+xdut.gnd.t41                       2.55824e-07
+xdut.gnd.t26                       3.30736e-07
+xdut.vdd.t29                               1.8
+xdut.vdd.t33                               1.8
+xdut.vdd.t23                               1.8
+xdut.gnd.t39                       8.33172e-11
+xdut.vdd.t28                               1.8
+xdut.gnd.t55                       1.54329e-07
+xdut.gnd.t8                        2.62932e-07
+xdut.gnd.t65                       6.60694e-10
+xdut.gnd.t64                       1.64253e-07
+xdut.gnd.t95                       6.99839e-08
+xdut.vdd.t79                               1.8
+xdut.vdd.t78                               1.8
+xdut.vdd.t90                               1.8
+xdut.vdd.t89                               1.8
+xdut.vdd.t83                               1.8
+xdut.gnd.t58                       3.96054e-07
+xdut.vdd.t100                              1.8
+xdut.vdd.t94                               1.8
+xdut.vdd.t31                               1.8
+xdut.vdd.t30                               1.8
+xdut.vdd.t49                               1.8
+xdut.vdd.t48                               1.8
+xdut.gnd.t37                       7.86956e-10
+xdut.gnd.t49                       3.02476e-07
+xdut.gnd.t29                        1.6879e-07
+xdut.vdd.t65                               1.8
+xdut.gnd.t30                       2.09859e-07
+xdut.gnd.t97                       6.88554e-10
+xdut.gnd.t96                       1.39915e-07
+xdut.gnd.t69                       2.26581e-07
+xdut.gnd.t75                       2.93306e-07
+xdut.vdd.t17                               1.8
+xdut.vdd.t16                               1.8
+xdut.gnd.t15                       3.84714e-07
+xdut.vdd.t53                               1.8
+xdut.gnd.t100                      8.44347e-08
+xdut.vdd.t27                               1.8
+xdut.vdd.t26                               1.8
+xdut.gnd.t11                        6.7952e-10
+xdut.gnd.t10                       2.18274e-07
+xdut.gnd.t2                        2.71513e-07
+xdut.vdd.t91                               1.8
+xdut.vdd.t32                               1.8
+xdut.gnd.t36                       3.11552e-07
+xdut.vdd.t93                               1.8
+xdut.vdd.t92                               1.8
+xdut.vdd.t71                               1.8
+xdut.vdd.t70                               1.8
+xdut.vdd.t0                                1.8
+xdut.gnd.t105                      7.47801e-10
+xdut.gnd.t104                      3.62853e-07
+xdut.gnd.t51                       2.08703e-07
+xdut.gnd.t106                      3.75601e-07
+xdut.gnd.t22                       3.78873e-07
+xdut.vdd.t95                               1.8
+xdut.gnd.t54                       3.03265e-07
+xdut.vdd.n33                               1.8
+xdut.vdd.n3                                1.8
+xdut.vdd.n2                                1.8
+xdut.vdd.n17                               1.8
+xdut.vdd.n32                               1.8
+xdut.vdd.n39                               1.8
+xdut.vdd.n44                               1.8
+xdut.vdd.n6                                1.8
+xdut.vdd.n8                                1.8
+xdut.vdd.n15                               1.8
+xdut.vdd.n41                               1.8
+xdut.vdd.n23                               1.8
+xdut.vdd.n10                               1.8
+xdut.vdd.n13                               1.8
+xdut.vdd.n12                               1.8
+xdut.vdd.n11                               1.8
+xdut.vdd.n25                               1.8
+xdut.vdd.n19                               1.8
+xdut.vdd.n24                               1.8
+xdut.vdd.n28                               1.8
+xdut.vdd.n7                                1.8
+xdut.vdd.n30                               1.8
+xdut.vdd.n29                               1.8
+xdut.vdd.n42                               1.8
+xdut.vdd.n22                               1.8
+xdut.vdd.n18                               1.8
+xdut.vdd.n36                               1.8
+xdut.vdd.n1                                1.8
+xdut.vdd.n43                               1.8
+xdut.vdd.n37                               1.8
+xdut.vdd.n9                                1.8
+xdut.vdd.n38                               1.8
+xdut.vdd.n26                               1.8
+xdut.vdd.n31                               1.8
+xdut.vdd.n20                               1.8
+xdut.vdd.n35                               1.8
+xdut.vdd.n5                                1.8
+xdut.vdd.n21                               1.8
+xdut.vdd.n4                                1.8
+xdut.vdd.n14                               1.8
+xdut.vdd.n0                                1.8
+xdut.vdd.n34                               1.8
+xdut.vdd.n27                               1.8
+xdut.vdd.n16                               1.8
+xdut.vdd.n40                               1.8
+xdut.gnd.n24                       2.35743e-08
+xdut.gnd.n25                       2.92694e-08
+xdut.gnd.n5                        7.28399e-11
+xdut.gnd.n4                        7.22368e-11
+xdut.gnd.n21                       6.64832e-10
+xdut.gnd.n22                       6.69214e-10
+xdut.gnd.n2                        6.59223e-10
+xdut.gnd.n3                        6.59586e-10
+xdut.gnd.n1                        7.27743e-10
+xdut.gnd.n16                       7.30968e-10
+xdut.gnd.n17                       7.47178e-10
+xdut.gnd.n18                       6.60209e-10
+xdut.gnd.n6                        6.60322e-10
+xdut.gnd.n11                        6.8416e-10
+xdut.gnd.n15                       7.29583e-10
+xdut.gnd.n9                        7.42185e-10
+xdut.gnd.n12                       6.81146e-10
+xdut.gnd.n23                       6.64686e-10
+xdut.gnd.n13                       7.26994e-10
+xdut.gnd.n7                        7.47349e-10
+xdut.gnd.n10                       7.93935e-10
+xdut.gnd.n14                       7.43514e-10
+xdut.gnd.n19                       6.64794e-10
+xdut.gnd.n8                        6.77672e-10
+xdut.gnd.n0                        7.27628e-10
+xdut.gnd.n20                       6.68992e-10
+xdut.gnd.n26                       2.70166e-10
+va5#branch                                   0
+vb7#branch                                   0
+vb6#branch                                   0
+vb5#branch                                   0
+vb4#branch                                   0
+vb3#branch                                   0
+vb2#branch                                   0
+vb1#branch                                   0
+vb0#branch                                   0
+va7#branch                                   0
+va6#branch                                   0
+va4#branch                                   0
+va3#branch                                   0
+va2#branch                                   0
+va1#branch                                   0
+va0#branch                                   0
+vvdd#branch                       -1.60498e-10
+
+ Reference value :  0.00000e+00  [                        ]   0% Reference value :  2.42800e-11  [                        ]   0% Reference value :  5.22800e-11  [                        ]   0% Reference value :  8.82800e-11  [                        ]   0% Reference value :  1.20280e-10  [                        ]   1% Reference value :  1.55280e-10  [                        ]   1% Reference value :  1.88280e-10  [                        ]   1% Reference value :  2.15280e-10  [                        ]   1% Reference value :  2.50280e-10  [                        ]   1% Reference value :  2.81280e-10  [                        ]   1% Reference value :  3.15280e-10  [                        ]   2% Reference value :  3.51280e-10  [                        ]   2% Reference value :  3.88280e-10  [                        ]   2% Reference value :  4.24280e-10  [=                       ]   2% Reference value :  4.60280e-10  [=                       ]   2% Reference value :  4.98280e-10  [=                       ]   2% Reference value :  5.34280e-10  [=                       ]   3% Reference value :  5.69280e-10  [=                       ]   3% Reference value :  6.05280e-10  [=                       ]   3% Reference value :  6.41280e-10  [=                       ]   3% Reference value :  6.76280e-10  [=                       ]   3% Reference value :  7.13280e-10  [=                       ]   4% Reference value :  7.51280e-10  [=                       ]   4% Reference value :  7.88280e-10  [=                       ]   4% Reference value :  8.26280e-10  [=                       ]   4% Reference value :  8.63280e-10  [=                       ]   4% Reference value :  9.00280e-10  [=                       ]   5% Reference value :  9.37280e-10  [=                       ]   5% Reference value :  9.71280e-10  [=                       ]   5% Reference value :  1.00828e-09  [=                       ]   5% Reference value :  1.04528e-09  [=                       ]   5% Reference value :  1.08328e-09  [=                       ]   5% Reference value :  1.12028e-09  [=                       ]   6% Reference value :  1.15628e-09  [=                       ]   6% Reference value :  1.19428e-09  [=                       ]   6% Reference value :  1.23028e-09  [=                       ]   6% Reference value :  1.26628e-09  [==                      ]   6% Reference value :  1.30228e-09  [==                      ]   7% Reference value :  1.33928e-09  [==                      ]   7% Reference value :  1.37528e-09  [==                      ]   7% Reference value :  1.41128e-09  [==                      ]   7% Reference value :  1.44828e-09  [==                      ]   7% Reference value :  1.48528e-09  [==                      ]   7% Reference value :  1.52128e-09  [==                      ]   8% Reference value :  1.55828e-09  [==                      ]   8% Reference value :  1.59528e-09  [==                      ]   8% Reference value :  1.63128e-09  [==                      ]   8% Reference value :  1.66828e-09  [==                      ]   8% Reference value :  1.70428e-09  [==                      ]   9% Reference value :  1.74228e-09  [==                      ]   9% Reference value :  1.77828e-09  [==                      ]   9% Reference value :  1.81528e-09  [==                      ]   9% Reference value :  1.85028e-09  [==                      ]   9% Reference value :  1.88728e-09  [==                      ]   9% Reference value :  1.92428e-09  [==                      ]  10% Reference value :  1.96128e-09  [==                      ]  10% Reference value :  1.99628e-09  [==                      ]  10% Reference value :  2.02650e-09  [==                      ]  10% Reference value :  2.05250e-09  [==                      ]  10% Reference value :  2.08750e-09  [===                     ]  10% Reference value :  2.11750e-09  [===                     ]  11% Reference value :  2.15150e-09  [===                     ]  11% Reference value :  2.18250e-09  [===                     ]  11% Reference value :  2.21850e-09  [===                     ]  11% Reference value :  2.25250e-09  [===                     ]  11% Reference value :  2.28450e-09  [===                     ]  11% Reference value :  2.31950e-09  [===                     ]  12% Reference value :  2.35050e-09  [===                     ]  12% Reference value :  2.37950e-09  [===                     ]  12% Reference value :  2.41250e-09  [===                     ]  12% Reference value :  2.44950e-09  [===                     ]  12% Reference value :  2.47950e-09  [===                     ]  12% Reference value :  2.51050e-09  [===                     ]  13% Reference value :  2.54550e-09  [===                     ]  13% Reference value :  2.57950e-09  [===                     ]  13% Reference value :  2.61450e-09  [===                     ]  13% Reference value :  2.65050e-09  [===                     ]  13% Reference value :  2.68250e-09  [===                     ]  13% Reference value :  2.71850e-09  [===                     ]  14% Reference value :  2.75450e-09  [===                     ]  14% Reference value :  2.78850e-09  [===                     ]  14% Reference value :  2.82450e-09  [===                     ]  14% Reference value :  2.85950e-09  [===                     ]  14% Reference value :  2.89450e-09  [===                     ]  14% Reference value :  2.92650e-09  [====                    ]  15% Reference value :  2.95950e-09  [====                    ]  15% Reference value :  2.99550e-09  [====                    ]  15% Reference value :  3.03050e-09  [====                    ]  15% Reference value :  3.06550e-09  [====                    ]  15% Reference value :  3.10150e-09  [====                    ]  16% Reference value :  3.13550e-09  [====                    ]  16% Reference value :  3.17050e-09  [====                    ]  16% Reference value :  3.20550e-09  [====                    ]  16% Reference value :  3.23850e-09  [====                    ]  16% Reference value :  3.27350e-09  [====                    ]  16% Reference value :  3.30950e-09  [====                    ]  17% Reference value :  3.34550e-09  [====                    ]  17% Reference value :  3.38150e-09  [====                    ]  17% Reference value :  3.41450e-09  [====                    ]  17% Reference value :  3.44950e-09  [====                    ]  17% Reference value :  3.48450e-09  [====                    ]  17% Reference value :  3.52050e-09  [====                    ]  18% Reference value :  3.55350e-09  [====                    ]  18% Reference value :  3.58550e-09  [====                    ]  18% Reference value :  3.61650e-09  [====                    ]  18% Reference value :  3.65250e-09  [====                    ]  18% Reference value :  3.68650e-09  [====                    ]  18% Reference value :  3.72350e-09  [====                    ]  19% Reference value :  3.75150e-09  [=====                   ]  19% Reference value :  3.78750e-09  [=====                   ]  19% Reference value :  3.82150e-09  [=====                   ]  19% Reference value :  3.85750e-09  [=====                   ]  19% Reference value :  3.89150e-09  [=====                   ]  19% Reference value :  3.92450e-09  [=====                   ]  20% Reference value :  3.95950e-09  [=====                   ]  20% Reference value :  3.99650e-09  [=====                   ]  20% Reference value :  4.02850e-09  [=====                   ]  20% Reference value :  4.06450e-09  [=====                   ]  20% Reference value :  4.09950e-09  [=====                   ]  20% Reference value :  4.13750e-09  [=====                   ]  21% Reference value :  4.17050e-09  [=====                   ]  21% Reference value :  4.20650e-09  [=====                   ]  21% Reference value :  4.24150e-09  [=====                   ]  21% Reference value :  4.27850e-09  [=====                   ]  21% Reference value :  4.31350e-09  [=====                   ]  22% Reference value :  4.34850e-09  [=====                   ]  22% Reference value :  4.38150e-09  [=====                   ]  22% Reference value :  4.41550e-09  [=====                   ]  22% Reference value :  4.45150e-09  [=====                   ]  22% Reference value :  4.48650e-09  [=====                   ]  22% Reference value :  4.52050e-09  [=====                   ]  23% Reference value :  4.55750e-09  [=====                   ]  23% Reference value :  4.59350e-09  [======                  ]  23% Reference value :  4.62350e-09  [======                  ]  23% Reference value :  4.65950e-09  [======                  ]  23% Reference value :  4.69450e-09  [======                  ]  23% Reference value :  4.73150e-09  [======                  ]  24% Reference value :  4.76650e-09  [======                  ]  24% Reference value :  4.80250e-09  [======                  ]  24% Reference value :  4.83750e-09  [======                  ]  24% Reference value :  4.87150e-09  [======                  ]  24% Reference value :  4.90850e-09  [======                  ]  25% Reference value :  4.94550e-09  [======                  ]  25% Reference value :  4.98250e-09  [======                  ]  25% Reference value :  5.01850e-09  [======                  ]  25% Reference value :  5.05250e-09  [======                  ]  25% Reference value :  5.08850e-09  [======                  ]  25% Reference value :  5.12350e-09  [======                  ]  26% Reference value :  5.15950e-09  [======                  ]  26% Reference value :  5.19550e-09  [======                  ]  26% Reference value :  5.23250e-09  [======                  ]  26% Reference value :  5.26850e-09  [======                  ]  26% Reference value :  5.30350e-09  [======                  ]  27% Reference value :  5.33750e-09  [======                  ]  27% Reference value :  5.37350e-09  [======                  ]  27% Reference value :  5.40850e-09  [======                  ]  27% Reference value :  5.44450e-09  [=======                 ]  27% Reference value :  5.47850e-09  [=======                 ]  27% Reference value :  5.50450e-09  [=======                 ]  28% Reference value :  5.53350e-09  [=======                 ]  28% Reference value :  5.56150e-09  [=======                 ]  28% Reference value :  5.59750e-09  [=======                 ]  28% Reference value :  5.63350e-09  [=======                 ]  28% Reference value :  5.67050e-09  [=======                 ]  28% Reference value :  5.70750e-09  [=======                 ]  29% Reference value :  5.74450e-09  [=======                 ]  29% Reference value :  5.78250e-09  [=======                 ]  29% Reference value :  5.81950e-09  [=======                 ]  29% Reference value :  5.85350e-09  [=======                 ]  29% Reference value :  5.89050e-09  [=======                 ]  29% Reference value :  5.92650e-09  [=======                 ]  30% Reference value :  5.96350e-09  [=======                 ]  30% Reference value :  5.99850e-09  [=======                 ]  30% Reference value :  6.03550e-09  [=======                 ]  30% Reference value :  6.07250e-09  [=======                 ]  30% Reference value :  6.10750e-09  [=======                 ]  31% Reference value :  6.14050e-09  [=======                 ]  31% Reference value :  6.17650e-09  [=======                 ]  31% Reference value :  6.21050e-09  [=======                 ]  31% Reference value :  6.24650e-09  [=======                 ]  31% Reference value :  6.28250e-09  [========                ]  31% Reference value :  6.31750e-09  [========                ]  32% Reference value :  6.35050e-09  [========                ]  32% Reference value :  6.38450e-09  [========                ]  32% Reference value :  6.41550e-09  [========                ]  32% Reference value :  6.44950e-09  [========                ]  32% Reference value :  6.48550e-09  [========                ]  32% Reference value :  6.52150e-09  [========                ]  33% Reference value :  6.55350e-09  [========                ]  33% Reference value :  6.58950e-09  [========                ]  33% Reference value :  6.62550e-09  [========                ]  33% Reference value :  6.65950e-09  [========                ]  33% Reference value :  6.69250e-09  [========                ]  33% Reference value :  6.71550e-09  [========                ]  34% Reference value :  6.74650e-09  [========                ]  34% Reference value :  6.78250e-09  [========                ]  34% Reference value :  6.81550e-09  [========                ]  34% Reference value :  6.84450e-09  [========                ]  34% Reference value :  6.88150e-09  [========                ]  34% Reference value :  6.91150e-09  [========                ]  35% Reference value :  6.94750e-09  [========                ]  35% Reference value :  6.98150e-09  [========                ]  35% Reference value :  7.01850e-09  [========                ]  35% Reference value :  7.05150e-09  [========                ]  35% Reference value :  7.08850e-09  [=========               ]  35% Reference value :  7.11850e-09  [=========               ]  36% Reference value :  7.14850e-09  [=========               ]  36% Reference value :  7.18450e-09  [=========               ]  36% Reference value :  7.22050e-09  [=========               ]  36% Reference value :  7.25350e-09  [=========               ]  36% Reference value :  7.29050e-09  [=========               ]  36% Reference value :  7.32650e-09  [=========               ]  37% Reference value :  7.36350e-09  [=========               ]  37% Reference value :  7.40050e-09  [=========               ]  37% Reference value :  7.43350e-09  [=========               ]  37% Reference value :  7.46750e-09  [=========               ]  37% Reference value :  7.50350e-09  [=========               ]  38% Reference value :  7.53950e-09  [=========               ]  38% Reference value :  7.57650e-09  [=========               ]  38% Reference value :  7.61250e-09  [=========               ]  38% Reference value :  7.64850e-09  [=========               ]  38% Reference value :  7.68550e-09  [=========               ]  38% Reference value :  7.72050e-09  [=========               ]  39% Reference value :  7.75450e-09  [=========               ]  39% Reference value :  7.79150e-09  [=========               ]  39% Reference value :  7.82750e-09  [=========               ]  39% Reference value :  7.85950e-09  [=========               ]  39% Reference value :  7.89650e-09  [=========               ]  39% Reference value :  7.93350e-09  [==========              ]  40% Reference value :  7.97050e-09  [==========              ]  40% Reference value :  8.00250e-09  [==========              ]  40% Reference value :  8.03850e-09  [==========              ]  40% Reference value :  8.07550e-09  [==========              ]  40% Reference value :  8.11150e-09  [==========              ]  41% Reference value :  8.14550e-09  [==========              ]  41% Reference value :  8.18250e-09  [==========              ]  41% Reference value :  8.21950e-09  [==========              ]  41% Reference value :  8.25450e-09  [==========              ]  41% Reference value :  8.28450e-09  [==========              ]  41% Reference value :  8.32050e-09  [==========              ]  42% Reference value :  8.35650e-09  [==========              ]  42% Reference value :  8.39150e-09  [==========              ]  42% Reference value :  8.42650e-09  [==========              ]  42% Reference value :  8.46250e-09  [==========              ]  42% Reference value :  8.49750e-09  [==========              ]  42% Reference value :  8.53350e-09  [==========              ]  43% Reference value :  8.56350e-09  [==========              ]  43% Reference value :  8.59950e-09  [==========              ]  43% Reference value :  8.63350e-09  [==========              ]  43% Reference value :  8.66950e-09  [==========              ]  43% Reference value :  8.70650e-09  [==========              ]  44% Reference value :  8.73850e-09  [==========              ]  44% Reference value :  8.77150e-09  [===========             ]  44% Reference value :  8.80450e-09  [===========             ]  44% Reference value :  8.83750e-09  [===========             ]  44% Reference value :  8.86850e-09  [===========             ]  44% Reference value :  8.90550e-09  [===========             ]  45% Reference value :  8.93850e-09  [===========             ]  45% Reference value :  8.96950e-09  [===========             ]  45% Reference value :  9.00050e-09  [===========             ]  45% Reference value :  9.03650e-09  [===========             ]  45% Reference value :  9.06850e-09  [===========             ]  45% Reference value :  9.10250e-09  [===========             ]  46% Reference value :  9.13850e-09  [===========             ]  46% Reference value :  9.17450e-09  [===========             ]  46% Reference value :  9.21050e-09  [===========             ]  46% Reference value :  9.24350e-09  [===========             ]  46% Reference value :  9.27750e-09  [===========             ]  46% Reference value :  9.31450e-09  [===========             ]  47% Reference value :  9.34550e-09  [===========             ]  47% Reference value :  9.38050e-09  [===========             ]  47% Reference value :  9.41650e-09  [===========             ]  47% Reference value :  9.45050e-09  [===========             ]  47% Reference value :  9.48750e-09  [===========             ]  47% Reference value :  9.52450e-09  [===========             ]  48% Reference value :  9.55950e-09  [===========             ]  48% Reference value :  9.59350e-09  [============            ]  48% Reference value :  9.62350e-09  [============            ]  48% Reference value :  9.65950e-09  [============            ]  48% Reference value :  9.69550e-09  [============            ]  48% Reference value :  9.73250e-09  [============            ]  49% Reference value :  9.76950e-09  [============            ]  49% Reference value :  9.80650e-09  [============            ]  49% Reference value :  9.84350e-09  [============            ]  49% Reference value :  9.87650e-09  [============            ]  49% Reference value :  9.90950e-09  [============            ]  50% Reference value :  9.94650e-09  [============            ]  50% Reference value :  9.98050e-09  [============            ]  50% Reference value :  1.00165e-08  [============            ]  50% Reference value :  1.00525e-08  [============            ]  50% Reference value :  1.00875e-08  [============            ]  50% Reference value :  1.01245e-08  [============            ]  51% Reference value :  1.01575e-08  [============            ]  51% Reference value :  1.01865e-08  [============            ]  51% Reference value :  1.02215e-08  [============            ]  51% Reference value :  1.02555e-08  [============            ]  51% Reference value :  1.02925e-08  [============            ]  51% Reference value :  1.03305e-08  [============            ]  52% Reference value :  1.03665e-08  [============            ]  52% Reference value :  1.04035e-08  [============            ]  52% Reference value :  1.04385e-08  [=============           ]  52% Reference value :  1.04695e-08  [=============           ]  52% Reference value :  1.05075e-08  [=============           ]  53% Reference value :  1.05455e-08  [=============           ]  53% Reference value :  1.05825e-08  [=============           ]  53% Reference value :  1.06205e-08  [=============           ]  53% Reference value :  1.06565e-08  [=============           ]  53% Reference value :  1.06935e-08  [=============           ]  53% Reference value :  1.07295e-08  [=============           ]  54% Reference value :  1.07655e-08  [=============           ]  54% Reference value :  1.08015e-08  [=============           ]  54% Reference value :  1.08375e-08  [=============           ]  54% Reference value :  1.08725e-08  [=============           ]  54% Reference value :  1.09025e-08  [=============           ]  55% Reference value :  1.09325e-08  [=============           ]  55% Reference value :  1.09685e-08  [=============           ]  55% Reference value :  1.10005e-08  [=============           ]  55% Reference value :  1.10295e-08  [=============           ]  55% Reference value :  1.10645e-08  [=============           ]  55% Reference value :  1.11015e-08  [=============           ]  56% Reference value :  1.11325e-08  [=============           ]  56% Reference value :  1.11665e-08  [=============           ]  56% Reference value :  1.12035e-08  [=============           ]  56% Reference value :  1.12375e-08  [=============           ]  56% Reference value :  1.12695e-08  [==============          ]  56% Reference value :  1.13045e-08  [==============          ]  57% Reference value :  1.13395e-08  [==============          ]  57% Reference value :  1.13755e-08  [==============          ]  57% Reference value :  1.14115e-08  [==============          ]  57% Reference value :  1.14485e-08  [==============          ]  57% Reference value :  1.14855e-08  [==============          ]  57% Reference value :  1.15215e-08  [==============          ]  58% Reference value :  1.15545e-08  [==============          ]  58% Reference value :  1.15905e-08  [==============          ]  58% Reference value :  1.16255e-08  [==============          ]  58% Reference value :  1.16625e-08  [==============          ]  58% Reference value :  1.16985e-08  [==============          ]  58% Reference value :  1.17325e-08  [==============          ]  59% Reference value :  1.17675e-08  [==============          ]  59% Reference value :  1.18035e-08  [==============          ]  59% Reference value :  1.18365e-08  [==============          ]  59% Reference value :  1.18735e-08  [==============          ]  59% Reference value :  1.19075e-08  [==============          ]  60% Reference value :  1.19435e-08  [==============          ]  60% Reference value :  1.19805e-08  [==============          ]  60% Reference value :  1.20115e-08  [==============          ]  60% Reference value :  1.20415e-08  [==============          ]  60% Reference value :  1.20685e-08  [==============          ]  60% Reference value :  1.21005e-08  [===============         ]  61% Reference value :  1.21355e-08  [===============         ]  61% Reference value :  1.21695e-08  [===============         ]  61% Reference value :  1.22065e-08  [===============         ]  61% Reference value :  1.22415e-08  [===============         ]  61% Reference value :  1.22775e-08  [===============         ]  61% Reference value :  1.23075e-08  [===============         ]  62% Reference value :  1.23405e-08  [===============         ]  62% Reference value :  1.23755e-08  [===============         ]  62% Reference value :  1.24105e-08  [===============         ]  62% Reference value :  1.24455e-08  [===============         ]  62% Reference value :  1.24785e-08  [===============         ]  62% Reference value :  1.25105e-08  [===============         ]  63% Reference value :  1.25425e-08  [===============         ]  63% Reference value :  1.25755e-08  [===============         ]  63% Reference value :  1.26055e-08  [===============         ]  63% Reference value :  1.26395e-08  [===============         ]  63% Reference value :  1.26755e-08  [===============         ]  63% Reference value :  1.27115e-08  [===============         ]  64% Reference value :  1.27465e-08  [===============         ]  64% Reference value :  1.27815e-08  [===============         ]  64% Reference value :  1.28175e-08  [===============         ]  64% Reference value :  1.28525e-08  [===============         ]  64% Reference value :  1.28845e-08  [===============         ]  64% Reference value :  1.29205e-08  [================        ]  65% Reference value :  1.29565e-08  [================        ]  65% Reference value :  1.29935e-08  [================        ]  65% Reference value :  1.30295e-08  [================        ]  65% Reference value :  1.30615e-08  [================        ]  65% Reference value :  1.30945e-08  [================        ]  65% Reference value :  1.31295e-08  [================        ]  66% Reference value :  1.31555e-08  [================        ]  66% Reference value :  1.31915e-08  [================        ]  66% Reference value :  1.32285e-08  [================        ]  66% Reference value :  1.32605e-08  [================        ]  66% Reference value :  1.32935e-08  [================        ]  66% Reference value :  1.33295e-08  [================        ]  67% Reference value :  1.33655e-08  [================        ]  67% Reference value :  1.33995e-08  [================        ]  67% Reference value :  1.34335e-08  [================        ]  67% Reference value :  1.34615e-08  [================        ]  67% Reference value :  1.34975e-08  [================        ]  67% Reference value :  1.35325e-08  [================        ]  68% Reference value :  1.35685e-08  [================        ]  68% Reference value :  1.36015e-08  [================        ]  68% Reference value :  1.36375e-08  [================        ]  68% Reference value :  1.36705e-08  [================        ]  68% Reference value :  1.37055e-08  [================        ]  69% Reference value :  1.37415e-08  [================        ]  69% Reference value :  1.37775e-08  [=================       ]  69% Reference value :  1.38135e-08  [=================       ]  69% Reference value :  1.38495e-08  [=================       ]  69% Reference value :  1.38835e-08  [=================       ]  69% Reference value :  1.39195e-08  [=================       ]  70% Reference value :  1.39545e-08  [=================       ]  70% Reference value :  1.39895e-08  [=================       ]  70% Reference value :  1.40245e-08  [=================       ]  70% Reference value :  1.40595e-08  [=================       ]  70% Reference value :  1.40955e-08  [=================       ]  70% Reference value :  1.41315e-08  [=================       ]  71% Reference value :  1.41655e-08  [=================       ]  71% Reference value :  1.42015e-08  [=================       ]  71% Reference value :  1.42355e-08  [=================       ]  71% Reference value :  1.42705e-08  [=================       ]  71% Reference value :  1.43065e-08  [=================       ]  72% Reference value :  1.43425e-08  [=================       ]  72% Reference value :  1.43785e-08  [=================       ]  72% Reference value :  1.44145e-08  [=================       ]  72% Reference value :  1.44485e-08  [=================       ]  72% Reference value :  1.44805e-08  [=================       ]  72% Reference value :  1.45155e-08  [=================       ]  73% Reference value :  1.45505e-08  [=================       ]  73% Reference value :  1.45865e-08  [==================      ]  73% Reference value :  1.46235e-08  [==================      ]  73% Reference value :  1.46595e-08  [==================      ]  73% Reference value :  1.46955e-08  [==================      ]  73% Reference value :  1.47305e-08  [==================      ]  74% Reference value :  1.47635e-08  [==================      ]  74% Reference value :  1.47985e-08  [==================      ]  74% Reference value :  1.48345e-08  [==================      ]  74% Reference value :  1.48695e-08  [==================      ]  74% Reference value :  1.49055e-08  [==================      ]  75% Reference value :  1.49415e-08  [==================      ]  75% Reference value :  1.49775e-08  [==================      ]  75% Reference value :  1.50145e-08  [==================      ]  75% Reference value :  1.50465e-08  [==================      ]  75% Reference value :  1.50815e-08  [==================      ]  75% Reference value :  1.51155e-08  [==================      ]  76% Reference value :  1.51505e-08  [==================      ]  76% Reference value :  1.51875e-08  [==================      ]  76% Reference value :  1.52235e-08  [==================      ]  76% Reference value :  1.52485e-08  [==================      ]  76% Reference value :  1.52675e-08  [==================      ]  76% Reference value :  1.52895e-08  [==================      ]  76% Reference value :  1.53095e-08  [==================      ]  77% Reference value :  1.53225e-08  [==================      ]  77% Reference value :  1.53335e-08  [==================      ]  77% Reference value :  1.53525e-08  [==================      ]  77% Reference value :  1.53735e-08  [==================      ]  77% Reference value :  1.54015e-08  [==================      ]  77% Reference value :  1.54145e-08  [==================      ]  77% Reference value :  1.54305e-08  [===================     ]  77% Reference value :  1.54625e-08  [===================     ]  77% Reference value :  1.54985e-08  [===================     ]  77% Reference value :  1.55245e-08  [===================     ]  78% Reference value :  1.55515e-08  [===================     ]  78% Reference value :  1.55845e-08  [===================     ]  78% Reference value :  1.56195e-08  [===================     ]  78% Reference value :  1.56495e-08  [===================     ]  78% Reference value :  1.56795e-08  [===================     ]  78% Reference value :  1.57155e-08  [===================     ]  79% Reference value :  1.57495e-08  [===================     ]  79% Reference value :  1.57815e-08  [===================     ]  79% Reference value :  1.58155e-08  [===================     ]  79% Reference value :  1.58505e-08  [===================     ]  79% Reference value :  1.58805e-08  [===================     ]  79% Reference value :  1.59125e-08  [===================     ]  80% Reference value :  1.59415e-08  [===================     ]  80% Reference value :  1.59685e-08  [===================     ]  80% Reference value :  1.59915e-08  [===================     ]  80% Reference value :  1.60145e-08  [===================     ]  80% Reference value :  1.60355e-08  [===================     ]  80% Reference value :  1.60575e-08  [===================     ]  80% Reference value :  1.60835e-08  [===================     ]  80% Reference value :  1.61065e-08  [===================     ]  81% Reference value :  1.61415e-08  [===================     ]  81% Reference value :  1.61645e-08  [===================     ]  81% Reference value :  1.61785e-08  [===================     ]  81% Reference value :  1.61905e-08  [===================     ]  81% Reference value :  1.62025e-08  [===================     ]  81% Reference value :  1.62195e-08  [===================     ]  81% Reference value :  1.62355e-08  [===================     ]  81% Reference value :  1.62505e-08  [====================    ]  81% Reference value :  1.62665e-08  [====================    ]  81% Reference value :  1.62835e-08  [====================    ]  81% Reference value :  1.62985e-08  [====================    ]  81% Reference value :  1.63215e-08  [====================    ]  82% Reference value :  1.63485e-08  [====================    ]  82% Reference value :  1.63715e-08  [====================    ]  82% Reference value :  1.63935e-08  [====================    ]  82% Reference value :  1.64225e-08  [====================    ]  82% Reference value :  1.64555e-08  [====================    ]  82% Reference value :  1.64885e-08  [====================    ]  82% Reference value :  1.65105e-08  [====================    ]  83% Reference value :  1.65335e-08  [====================    ]  83% Reference value :  1.65575e-08  [====================    ]  83% Reference value :  1.65825e-08  [====================    ]  83% Reference value :  1.66105e-08  [====================    ]  83% Reference value :  1.66365e-08  [====================    ]  83% Reference value :  1.66685e-08  [====================    ]  83% Reference value :  1.66995e-08  [====================    ]  83% Reference value :  1.67205e-08  [====================    ]  84% Reference value :  1.67305e-08  [====================    ]  84% Reference value :  1.67435e-08  [====================    ]  84% Reference value :  1.67675e-08  [====================    ]  84% Reference value :  1.67945e-08  [====================    ]  84% Reference value :  1.68245e-08  [====================    ]  84% Reference value :  1.68565e-08  [====================    ]  84% Reference value :  1.68855e-08  [====================    ]  84% Reference value :  1.69145e-08  [====================    ]  85% Reference value :  1.69445e-08  [====================    ]  85% Reference value :  1.69725e-08  [====================    ]  85% Reference value :  1.69965e-08  [====================    ]  85% Reference value :  1.70205e-08  [====================    ]  85% Reference value :  1.70485e-08  [====================    ]  85% Reference value :  1.70755e-08  [====================    ]  85% Reference value :  1.71045e-08  [=====================   ]  86% Reference value :  1.71335e-08  [=====================   ]  86% Reference value :  1.71615e-08  [=====================   ]  86% Reference value :  1.71905e-08  [=====================   ]  86% Reference value :  1.72165e-08  [=====================   ]  86% Reference value :  1.72465e-08  [=====================   ]  86% Reference value :  1.72795e-08  [=====================   ]  86% Reference value :  1.73135e-08  [=====================   ]  87% Reference value :  1.73455e-08  [=====================   ]  87% Reference value :  1.73745e-08  [=====================   ]  87% Reference value :  1.74055e-08  [=====================   ]  87% Reference value :  1.74345e-08  [=====================   ]  87% Reference value :  1.74565e-08  [=====================   ]  87% Reference value :  1.74805e-08  [=====================   ]  87% Reference value :  1.75055e-08  [=====================   ]  88% Reference value :  1.75365e-08  [=====================   ]  88% Reference value :  1.75645e-08  [=====================   ]  88% Reference value :  1.75845e-08  [=====================   ]  88% Reference value :  1.76095e-08  [=====================   ]  88% Reference value :  1.76215e-08  [=====================   ]  88% Reference value :  1.76315e-08  [=====================   ]  88% Reference value :  1.76395e-08  [=====================   ]  88% Reference value :  1.76555e-08  [=====================   ]  88% Reference value :  1.76805e-08  [=====================   ]  88% Reference value :  1.76945e-08  [=====================   ]  88% Reference value :  1.77225e-08  [=====================   ]  89% Reference value :  1.77525e-08  [=====================   ]  89% Reference value :  1.77755e-08  [=====================   ]  89% Reference value :  1.78055e-08  [=====================   ]  89% Reference value :  1.78385e-08  [=====================   ]  89% Reference value :  1.78715e-08  [=====================   ]  89% Reference value :  1.79005e-08  [=====================   ]  90% Reference value :  1.79325e-08  [======================  ]  90% Reference value :  1.79655e-08  [======================  ]  90% Reference value :  1.79985e-08  [======================  ]  90% Reference value :  1.80275e-08  [======================  ]  90% Reference value :  1.80605e-08  [======================  ]  90% Reference value :  1.80925e-08  [======================  ]  90% Reference value :  1.81245e-08  [======================  ]  91% Reference value :  1.81565e-08  [======================  ]  91% Reference value :  1.81895e-08  [======================  ]  91% Reference value :  1.82235e-08  [======================  ]  91% Reference value :  1.82535e-08  [======================  ]  91% Reference value :  1.82805e-08  [======================  ]  91% Reference value :  1.83115e-08  [======================  ]  92% Reference value :  1.83425e-08  [======================  ]  92% Reference value :  1.83735e-08  [======================  ]  92% Reference value :  1.84045e-08  [======================  ]  92% Reference value :  1.84375e-08  [======================  ]  92% Reference value :  1.84715e-08  [======================  ]  92% Reference value :  1.85025e-08  [======================  ]  93% Reference value :  1.85325e-08  [======================  ]  93% Reference value :  1.85665e-08  [======================  ]  93% Reference value :  1.85985e-08  [======================  ]  93% Reference value :  1.86325e-08  [======================  ]  93% Reference value :  1.86655e-08  [======================  ]  93% Reference value :  1.86985e-08  [======================  ]  93% Reference value :  1.87315e-08  [======================  ]  94% Reference value :  1.87615e-08  [======================= ]  94% Reference value :  1.87915e-08  [======================= ]  94% Reference value :  1.88245e-08  [======================= ]  94% Reference value :  1.88575e-08  [======================= ]  94% Reference value :  1.88905e-08  [======================= ]  94% Reference value :  1.89235e-08  [======================= ]  95% Reference value :  1.89565e-08  [======================= ]  95% Reference value :  1.89905e-08  [======================= ]  95% Reference value :  1.90205e-08  [======================= ]  95% Reference value :  1.90525e-08  [======================= ]  95% Reference value :  1.90865e-08  [======================= ]  95% Reference value :  1.91195e-08  [======================= ]  96% Reference value :  1.91535e-08  [======================= ]  96% Reference value :  1.91865e-08  [======================= ]  96% Reference value :  1.92195e-08  [======================= ]  96% Reference value :  1.92525e-08  [======================= ]  96% Reference value :  1.92825e-08  [======================= ]  96% Reference value :  1.93155e-08  [======================= ]  97% Reference value :  1.93485e-08  [======================= ]  97% Reference value :  1.93815e-08  [======================= ]  97% Reference value :  1.94155e-08  [======================= ]  97% Reference value :  1.94485e-08  [======================= ]  97% Reference value :  1.94815e-08  [======================= ]  97% Reference value :  1.95145e-08  [======================= ]  98% Reference value :  1.95435e-08  [======================= ]  98% Reference value :  1.95715e-08  [======================= ]  98% Reference value :  1.96035e-08  [========================]  98% Reference value :  1.96335e-08  [========================]  98% Reference value :  1.96635e-08  [========================]  98% Reference value :  1.96915e-08  [========================]  98% Reference value :  1.97225e-08  [========================]  99% Reference value :  1.97505e-08  [========================]  99% Reference value :  1.97825e-08  [========================]  99% Reference value :  1.98155e-08  [========================]  99% Reference value :  1.98495e-08  [========================]  99% Reference value :  1.98825e-08  [========================]  99% Reference value :  1.99165e-08  [========================] 100% Reference value :  1.99495e-08  [========================] 100% Reference value :  1.99835e-08  [========================] 100%
+No. of Data Rows : 20020
+
+  Measurements for Transient Analysis
+
+tpd_gt_rise         =  6.66979e-10 targ=  2.69198e-09 trig=  2.02500e-09
+tpd_lt_fall         =  8.03410e-10 targ=  2.82841e-09 trig=  2.02500e-09
+tpd_gt_fall         =  5.38443e-10 targ=  1.25634e-08 trig=  1.20250e-08
+tpd_lt_rise         =  8.00128e-10 targ=  1.28251e-08 trig=  1.20250e-08
+eq_max              =  7.71449e-03 at=  2.22150e-09
+
+
+Total analysis time (seconds) = 19.6435
+
+Total elapsed time (seconds) = 21.148 
+
+Total DRAM available = 7327.305 MB.
+DRAM currently available =  490.164 MB.
+Maximum ngspice program size =  214.777 MB.
+Current ngspice program size =  149.156 MB.
+
+Shared ngspice pages =   10.742 MB.
+Text (code) pages =    6.578 MB.
+Stack = 0 bytes.
+Library pages =  194.492 MB.
+

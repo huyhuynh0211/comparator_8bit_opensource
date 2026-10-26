@@ -1,0 +1,79 @@
+** sch_path: /home/huyhuynh/Documents/nam3ky1/VLSIdesign/project/E2/xschem/comparator_8bit_tb.sch
+**.subckt comparator_8bit_tb
+x1 VDD EQ A7 A6 A5 A4 A3 A2 A1 A0 LT GND B7 B6 B5 B4 B3 B2 B1 B0 GT comparator_8bit
+**** begin user architecture code
+
+
+.lib /home/huyhuynh/pdk/sky130A/libs.tech/combined/sky130.lib.spice tt
+.include /home/huyhuynh/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+
+
+* ---- Supply
+Vvdd VDD 0 DC 1.8
+
+Va0 A0 0 PULSE(0 1.8   4n 50p 50p   3.95n    8n)
+Va1 A1 0 PULSE(0 1.8   8n 50p 50p   7.95n   16n)
+Va2 A2 0 PULSE(0 1.8  16n 50p 50p  15.95n   32n)
+Va3 A3 0 PULSE(0 1.8  32n 50p 50p  31.95n   64n)
+Va4 A4 0 PULSE(0 1.8  64n 50p 50p  63.95n  128n)
+Va5 A5 0 PULSE(0 1.8 128n 50p 50p 127.95n  256n)
+Va6 A6 0 PULSE(0 1.8 256n 50p 50p 255.95n  512n)
+Va7 A7 0 PULSE(0 1.8 512n 50p 50p 511.95n 1024n)
+
+Vb0 B0 0 DC 1.8
+Vb1 B1 0 DC 0
+Vb2 B2 0 DC 0
+Vb3 B3 0 DC 0
+Vb4 B4 0 DC 0
+Vb5 B5 0 DC 0
+Vb6 B6 0 DC 0
+Vb7 B7 0 DC 0
+
+Clt LT 0 10f
+Ceq EQ 0 10f
+Cgt GT 0 10f
+
+.control
+  tran 10p 2048n
+  write comparator_8bit_tb.raw
+.endc
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  comparator_8bit.sym # of pins=7
+** sym_path: /home/huyhuynh/Documents/nam3ky1/VLSIdesign/project/E2/xschem/comparator_8bit.sym
+** sch_path: /home/huyhuynh/Documents/nam3ky1/VLSIdesign/project/E2/xschem/comparator_8bit.sch
+.subckt comparator_8bit VDD EQ A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] LT GND B[7] B[6] B[5] B[4] B[3] B[2] B[1] B[0] GT
+*.opin EQ
+*.opin LT
+*.opin GT
+*.iopin VDD
+*.iopin GND
+*.ipin A[7],A[6],A[5],A[4],A[3],A[2],A[1],A[0]
+*.ipin B[7],B[6],B[5],B[4],B[3],B[2],B[1],B[0]
+x2 A[1] net1 E1 GND GND VDD VDD net2 sky130_fd_sc_hd__mux2i_1
+x3 B[2] net2 E2 GND GND VDD VDD net3 sky130_fd_sc_hd__mux2i_1
+x4 A[3] net3 E3 GND GND VDD VDD net7 sky130_fd_sc_hd__mux2i_1
+x6 A[5] net4 E5 GND GND VDD VDD net5 sky130_fd_sc_hd__mux2i_1
+x7 B[6] net5 E6 GND GND VDD VDD net6 sky130_fd_sc_hd__mux2i_1
+x8 B[7] net6 E7 GND GND VDD VDD net8 sky130_fd_sc_hd__mux2i_1
+x9 E0 E1 E2 E3 GND GND VDD VDD NLO sky130_fd_sc_hd__nand4_1
+x11 A[0] B[0] GND GND VDD VDD E0 sky130_fd_sc_hd__xnor2_1
+x10 E4 E5 E6 E7 GND GND VDD VDD NHI sky130_fd_sc_hd__nand4_1
+x19 NLO NHI GND GND VDD VDD EQ sky130_fd_sc_hd__nor2_1
+x20 net7 net8 NHI GND GND VDD VDD GT sky130_fd_sc_hd__mux2i_1
+x21 EQ GT GND GND VDD VDD LT sky130_fd_sc_hd__nor2_1
+x12 A[1] B[1] GND GND VDD VDD E1 sky130_fd_sc_hd__xnor2_1
+x13 A[2] B[2] GND GND VDD VDD E2 sky130_fd_sc_hd__xnor2_1
+x14 A[3] B[3] GND GND VDD VDD E3 sky130_fd_sc_hd__xnor2_1
+x15 A[4] B[4] GND GND VDD VDD E4 sky130_fd_sc_hd__xnor2_1
+x16 A[5] B[5] GND GND VDD VDD E5 sky130_fd_sc_hd__xnor2_1
+x17 A[6] B[6] GND GND VDD VDD E6 sky130_fd_sc_hd__xnor2_1
+x18 A[7] B[7] GND GND VDD VDD E7 sky130_fd_sc_hd__xnor2_1
+x22 B[0] A[0] GND GND VDD VDD net1 sky130_fd_sc_hd__nor2b_1
+x1 B[4] A[4] GND GND VDD VDD net4 sky130_fd_sc_hd__nor2b_1
+.ends
+
+.end
